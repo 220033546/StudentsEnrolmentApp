@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Documents\\StudentsEnrolmentApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\StudentsEnrolmentApp\\obj\\Debug\\net8.0\\compressed\\r11rp0p1r7.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\StudentsEnrolmentApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\StudentsEnrolmentApp.styles.css",
+      "PackagePath": "staticwebassets\\StudentsEnrolmentApp.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\StudentsEnrolmentApp\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\StudentsEnrolmentApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\StudentsEnrolmentApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StudentsEnrolmentApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.StudentsEnrolmentApp.props",
+      "PackagePath": "build\\StudentsEnrolmentApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.StudentsEnrolmentApp.props",
+      "PackagePath": "buildMultiTargeting\\StudentsEnrolmentApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.StudentsEnrolmentApp.props",
+      "PackagePath": "buildTransitive\\StudentsEnrolmentApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

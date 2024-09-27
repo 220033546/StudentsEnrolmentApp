@@ -1,0 +1,99 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = StudentsEnrolmentApp
+build_property.RootNamespace = StudentsEnrolmentApp
+build_property.ProjectDir = C:\Users\User\Documents\StudentsEnrolmentApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Documents\StudentsEnrolmentApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Layout/Alert.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEFsZXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Account/Layout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Account/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Account/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Account/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Account/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/ManageCourse/AddCourse.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlQ291cnNlXEFkZENvdXJzZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/ManageCourse/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlQ291cnNlXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/ManageCourse/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlQ291cnNlXF9JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Users/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Users/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Users/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Users/Layout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Pages/Users/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/StudentsEnrolmentApp/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ecgz94w406

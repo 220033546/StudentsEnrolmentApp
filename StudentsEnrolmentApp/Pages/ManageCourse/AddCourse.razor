@@ -1,0 +1,108 @@
+﻿@page "/ManageCourse/AddCourse"
+@using StudentsEnrolmentApp.Data
+@inject NavigationManager NavigationManager
+@inject CoursesData CourseData
+@inject CourseTypesData CourseTypeData
+@inject GenderTypesData GenderTypeData
+<h3>AddCourse</h3>
+
+@if (courseTypes is null || genderTypes is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+        <EditForm Model="@createCourse" ForName="createCourse" OnSubmit="HandleSubmit">
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First Name:</label>
+                <InputText id="firstName" @bind-Value="createCourse.FirstName" class="form-control" />
+            </div>
+              <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name:</label>
+                <InputText id="lastName" @bind-Value="createCourse.LastName" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label for="phoneNumber" class="form-label">Phone Number:</label>
+                <InputText id="phoneNumber" @bind-Value="createCourse.PhoneNumber" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender:</label>
+                <InputSelect id="gender" @bind-Value="createCourse.Gender" class="form-select">
+                   <option value="">Select Gender</option>
+                   @foreach (var genderType in genderTypes)
+                    {
+                        <option value="@genderType.Id">@genderType.Name</option>
+                    }
+                </InputSelect>
+            </div>
+              <div class="mb-3">
+                <label for="birthDate" class="form-label">Birth Date:</label>
+                <InputDate id="birthDate" @bind-Value="createCourse.BirthDate" class="form-control" />
+              </div>
+                <div class="mb-3">
+                <label for="emailAddress" class="form-label">Email Address:</label>
+                <InputText id="emailAddress" @bind-Value="createCourse.EmailAddress" class="form-control" />
+            </div>
+        
+            <div class="mb-3">
+                <label for="registrationDate" class="form-label">Registration Date:</label>
+                <InputDate id="registrationDate" @bind-Value="createCourse.RegistrationDate" class="form-control" />
+            </div>
+             <div class="mb-3">
+                <label for="enrolProgram" class="form-label">Enrol. Program:</label>
+                <InputSelect id="enrolProgram" @bind-Value="createCourse.EnrolProgram" class="form-control">
+                    <option value="">Select Course</option>
+                    @foreach (var courseType in courseTypes)
+                    {
+                        <option value="@courseType.Id">@courseType.Name</option>
+                    }
+                </InputSelect>
+            </div>
+                    <div class="mb-3">
+                <label for="studentNumber" class="form-label">Student Number:</label>
+                <InputText id="studentNumber" @bind-Value="createCourse.StudentNumber" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+             <a role="button" class="btn btn-secondary" href="/">Cancel</a>
+          </EditForm>
+}
+
+@code {
+    [SupplyParameterFromForm]
+
+    private CreateCourse createCourse { get; set; } = new()
+        {
+            FirstName = string.Empty,
+            LastName = string.Empty,
+            PhoneNumber = string.Empty,
+            Gender = string.Empty,
+            BirthDate = DateOnly.FromDateTime(DateTime.UtcNow),
+            EmailAddress = string.Empty,
+            RegistrationDate = DateOnly.FromDateTime(DateTime.UtcNow),
+            EnrolProgram = string.Empty,
+            StudentNumber = string.Empty
+        };
+
+    // private CourseTypesData courseTypesData = new();
+    private CourseTypes[] courseTypes;
+
+    // private GenderTypesData genderTypesData = new();
+    private GenderTypes[] genderTypes;
+
+    // private CoursesData coursesData = new(); 
+
+    protected override void OnInitialized()
+    {
+        // courseTypes = courseTypesData.GetCourseTypes();
+        courseTypes = CourseTypeData.GetCourseTypes();
+        // genderTypes = genderTypesData.GetGenderTypes();
+        genderTypes = GenderTypeData.GetGenderTypes();
+    }
+
+    private void HandleSubmit()
+    {
+        // coursesData.AddCourseDetails(createCourse);
+        CourseData.AddCourseDetails(createCourse);
+        NavigationManager.NavigateTo("/ManageCourse/");
+    }
+}

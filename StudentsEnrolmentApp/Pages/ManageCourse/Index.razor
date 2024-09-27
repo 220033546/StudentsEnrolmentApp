@@ -1,0 +1,58 @@
+﻿@page "/ManageCourse"
+@using StudentsEnrolmentApp.Data
+@inject CoursesData CourseData
+<h1>List</h1>
+
+@if(courseDetails is null)
+{
+    <p><em>Loading...</em></p>
+} 
+else 
+{
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="table-dark">
+           <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone Number</th>
+                <th>Gender</th>
+                <th>Birth Date</th>
+                <th>Email Address</th>
+                <th>Reg. Date</th>
+                <th>Enrol. Program</th>
+                <th>Student No.</th>
+             </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in courseDetails)
+            {
+                <tr>
+                    <td>@course.Id</td>
+                    <td>@course.FirstName</td>
+                    <td>@course.LastName</td>
+                    <td>@course.PhoneNumber</td>
+                    <td>@course.Gender</td>
+                    <td>@course.BirthDate</td>
+                    <td>@course.EmailAddress</td>
+                    <td>@course.RegistrationDate</td>
+                    <td>@course.EnrolProgram</td>
+                    <td>@course.StudentNumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    // private CoursesData coursesData = new ();
+
+    private CourseDetails[]? courseDetails;
+
+    protected override void OnInitialized()
+    {
+        courseDetails = CourseData.GetCourseDetails();
+    }
+
+}
